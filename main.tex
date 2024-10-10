@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%% META DATA SETUP %%%%%%%%%%%%%%%%%%
+% This is where the document title and author are set. Other details for the title page are set later
+\begin{filecontents*}{\jobname.xmpdata}
+    \Title{In-situ Jet Calibration and Electro-Weak Induced Production of Wγ in Association With Two Jets at ATLAS} 
+    \Author{Benjamin Honan}
+    \Language{en-GB}
+    \Copyrighted{True}
+    % More meta-data fielda can be added here if wanted, see https://ctan.org/pkg/pdfx?lang=en for fields
+  \end{filecontents*}  
+
+\documentclass[times,thesis]{uom_thesis} % See above for font options Year can be: first, second or thesis.
+%\documentclass[a4paper,11pt]{article}
+%\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+             % images in pdf, png or jpg format)
+
+%\usepackage{jheppub} % for details on the use of the package, please
+                     % see the JHEP-author-manual
+
+%\usepackage[T1]{fontenc} % if needed
+%\usepackage{tabularx,ragged2e,xspace,placeins,amstext,siunitx,biblatex,caption,subcaption}
+\usepackage{tabularx,ragged2e,xspace,placeins,amstext,siunitx,caption,subcaption,multirow,booktabs,float,amsmath,amssymb,mathtools,cleveref,slashed,dsfont,stackengine,mathrsfs,tikz}
+
+\usetikzlibrary
+   {
+   arrows      ,
+   shapes      ,
+   positioning ,
+   calc        ,
+   er          ,
+   decorations.markings ,
+   decorations.pathmorphing ,
+   fit         ,
+   patterns    ,
+   shadows     ,
+   automata    ,
+   backgrounds ,
+   quotes,
+   angles
+   }
+
+\tikzset
+{
+boson/.style  = 
+      {
+      draw=black, decorate, 
+      decoration={snake}%,post length=1.0mm}, 
+      },
+gluon/.style = 
+      {
+      draw=black, decorate, 
+      decoration={coil, amplitude=3.8pt, segment length=5.5pt}
+      },
+higgs/.style = 
+      {
+      draw=black, dashed
+      %decoration={dashed, amplitude=3.8pt, segment length=5.5pt}
+      },
+fermion/.style = 
+        {
+        draw=black, postaction={decorate},
+        decoration = {markings, mark=at position 0.56 with {\arrow[scale=1.2, >=stealth]{>}}}
+        }, 
+antifermion/.style = 
+        {
+        draw=black, postaction={decorate},
+        decoration= {markings, mark=at position 0.56 with { \arrow[ scale=1.2, >=stealth]{<} }}
+        },
+}
+   
+\usepackage[utf8]{inputenc}
+\extrafloats{500}
+\usepackage{listings}
+\lstnewenvironment{VerbItem}{%
+    \renewcommand*\thelstnumber{\textbullet}%
+    \lstset{basicstyle=\ttfamily\small,breakatwhitespace,breaklines,
+            numbers=left,numbersep=2pt,xleftmargin=0.75em}}{}
+
+\renewcommand\tabularxcolumn[1]{>{\Centering}p{#1}}
+\newcommand\dbar{\ensurestackMath{\stackengine{.7ex}{d}{\mbox{-}\mkern-1.6mu}{O}{r}{F}{T}{L}}}
+%\usepackage[colorlinks=true,citecolor=blue]{hyperref}%
+%\usepackage{tabularx}
+\input{mydefs}
+
+%\title{\boldmath In-situ Jet Calibration and Electro-Weak Induced Production of W$\gamma$ in association with two jets at ATLAS}
+
+%\author[a,b,1]{Benjamin Honan}
+
+%\affiliation[a]{University of Manchester, UK}
+
+%\emailAdd{Benjamin.Honan@postgrad.Manchester.ac.uk}
+
+%\abstract{my abstract}
+
+% Setup your references here. Change the reference style here if wanted
+%\usepackage[style=ieee,backend=biber,backref=true,hyperref=auto]{biblatex}
+\usepackage[style=ieee,citestyle=numeric-comp,backend=biber,backref=true,hyperref=auto]{biblatex}
+% Note backref=true adds a page number (and hyperlink) to each reference so you can easily go back from the references to the main document. You may prefer backref=false if you need to stick strictly to a given reference style
+
+% Fixes which can't be applied in the .cls file
+\DefineBibliographyStrings{english}{backrefpage = {cited on p\adddot},  backrefpages = {cited on pp\adddot}}
+  \renewcommand*{\bibfont}{\large}
+
+% Add more .bib files here if wanted
+\addbibresource{bibliography.bib}
+
+\begin{document} 
+
+\makeatletter
+\title{\xmp@Title}
+\author{\xmp@Author}
+\makeatother
+
+% Set the below yourself
+\faculty{Science and Engineering}                  % "Faculty of" is added automatically
+\department{Department of Physics and Astronomy} % regulations allow School, Division, or Department to be put here
+\submitdate{2024}                                  % regulations ask only for the year, not month
+\wordcount{37962}		                           % use \wordcount{} to set the count, \thewordcount to print in the text
+\maketitle
+
+% Probably don't need all of these unless final thesis
+\uomtoc % contents 
+%\uomlof % figures
+%\uomlot % tables
+%\begin{uomlop} % list of publications.
+  % Can use biblatex to \printbibliography[heading=none] to populate automatically, or can add a custom list via the tocloft package, but probably easier to just type in unless you have lots!
+%  Publications go here.
+%\end{uomlop}
+%\begin{uomterms}
+%  Enter terms and abbreviations as table or similar
+  % Add list of terms and abbreviations by hand if wanted. Is no formal requirement to have one. There are lots of packages to help with this if you don't want to do by hand
+%\end{uomterms}
+%
+%%%%%%%%%%%%%%%%%% ABSTRACT %%%%%%%%%%%%%%%%%%
+\begin{abstract} % put abstract here. Limit is 1 page.
+  Differential cross-section measurements of the electroweak production of $W\gamma$ in association with two jets are made using proton-proton collision data with an integrated luminosity of $140\invfb$ and a centre-of-mass energy of $\sqrt{s}=13\TeV$, recorded by the ATLAS detector. Six different observables are used to present the differential cross-sections, where these observables are chosen due to their anticipated sensitivity to anomalous quartic gauge couplings and CP-violating interactions. 
+  
+  The differential cross-section measurements are presented at particle-level after applying corrections to account for detector inefficiencies. These corrections are applied to differential signal yields which are obtained through a minimum log-likelihood fit of the data to simulations and data-driven background estimates. The measured differential cross-sections are compared to predictions from simulation, and are found to be compatible within statistical and systematic uncertainties. 
+
+  Correction factors to the jet energy scale calibration for large-radius jets are presented. These residual insitu corrections account for detector mismodelling in applying the simulation derived jet energy scale to data. The calibration is performed using \zjets events in both the electron and muon decay channels, and are found to be most relevant in the kinematic range of $200\GeV\leq\pt^{\text{jet}}\leq500\GeV$, where $\pt^{\text{jet}}$ represents the jet transverse momentum. The total uncertainty on the insitu calibration factor is found to range from $0.5-1.5\%$ depending on the decay channel and $\pt^{\text{jet}}$ bin.
+  %as functions of six different observables. 
+    
+\end{abstract}%
+\clearpage
+
+%\maketitle
+%\flushbottom
+%\tableofcontents
+%\pagebreak
+
+%%%%%%%%%%%%%%%%%% DECLARATIONS %%%%%%%%%%%%%%%%%%
+\uomdeclarations % Don't need unless final thesis. No options are needed. Having this command will add the required declarations
+
+%%%%%%%%%%%%%%%%%% ACKNOWLEDGEMENTS %%%%%%%%%%%%%%%%%%
+\begin{uomacknowledgements} % probably don't need unless final thesis
+  I would like to start by giving a huge thank you to my supervisor Andy for always being available to answer my questions, providing endless valuable feedback, and generally keeping me on the right track. I really believe you have gone above and beyond your duty as a supervisor, and it is clear that you care a great deal about your students.
+
+  The process of completing my PhD has been made so much easier by the constant support of my friends and family. In particular, Jordan who was my housemate when I moved to Manchester, and let me live with his family in Pembrokeshire for over a month! Our many bike rides in and around the depths of the peak district definitely helped me in maintaining my sanity during the COVID-19 pandemic. Lastly, thanks for introducing me to surfing, although I'm not entirely sure if I should be grateful for this. Perry, I am forever grateful for letting me live with you in Liverpool near the end of the pandemic. I can always confide in you and Arun when things are not going my way. Another big thank you to Arun for coming to see me when I completed my viva. Zak, thank you for being such a good housemate whilst on LTA in Switzerland, and for helping me stay sane whilst I was writing up. Rhys, I will always strive to reach your level of life optimisation. Thanks for visiting me many times in Cornwall and Switzerland, and for always being such a good friend. To all my other friends in the Imperial College Caving Club, the occasional weekend trips were a nice respite from thesis writing and intense analysis work particularly in the final years of my PhD, and the Slovenia expedition remains a consistent yearly highlight. Thanks for all the memories. To my family, thank you for putting up with my grumpiness during the last few months of thesis writing. You are always there for me, through thick and thin. The whole PhD process was made so much easier with the constant support of my caring family.
+
+  Lastly, a big thank you to everyone that proof read sections of my thesis, and Dr. William Barter and Prof. Justin Evans for being my examiners.
+\end{uomacknowledgements}
+
+
+\justifying
+\setlength{\parindent}{0pt}
+%-------------------------------------------------------------------------
+\newpage
+\chapter{Introduction}
+\label{sec:intro}
+\input{tex/introduction}
+\FloatBarrier
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+\newpage
+\chapter{Theory}
+\label{sec:theory}
+\input{tex/theory}
+\FloatBarrier
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+%\newpage
+%\chapter{The Large Hadron Collider}
+%\input{tex/lhc}
+%\label{sec:largehadroncollider}
+%\FloatBarrier
+%------------------------------------------------------------------------- 
+
+%-------------------------------------------------------------------------
+\newpage
+\chapter{The LHC and ATLAS Experiment}
+\label{sec:atlasdetector}
+\input{tex/atlas}
+\FloatBarrier
+%------------------------------------------------------------------------- 
+
+%-------------------------------------------------------------------------
+\newpage
+\chapter{Insitu Calibration of Large-R Jets Using Direct Balance in Z+Jet Events}
+\label{sec:insitu}
+\input{tex/insitu}
+\FloatBarrier
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+\chapter{Differential Cross-section Measurement of $W\gamma jj$ EW Production at $\sqrt{s}=13\TeV$}
+\label{sec:vbswy}
+\input{tex/vbswy}
+\FloatBarrier
+%-------------------------------------------------------------------------
+
+\newpage
+\chapter{Conclusions}
+\label{sec:conclusion}
+\input{tex/conclusion}
+\FloatBarrier
+
+%\acknowledgments
+%Thanks xyz.
+
+%\newpage
+%\bibliographystyle{IEEEtran}
+%\bibliography{bibliography.bib}
+%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+\printbibliography[title={References},heading=bibintoc] % a single list of references for the whole thesis
+
+%%%%%%%%%%%%%%%%%% APPENDICES %%%%%%%%%%%%%%%%%%
+\begin{uomappendix} 
+%\label{sec:appendix}
+\chapter{Large-R \zjets Insitu Calibration}
+\input{tex/appendix_a}
+\chapter{Differential Cross-section Measurement}
+\input{tex/appendix_b}
+\end{uomappendix}
+
+\end{document}

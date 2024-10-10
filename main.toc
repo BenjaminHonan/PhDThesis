@@ -1,0 +1,155 @@
+\contentsline {chapter}{Contents}{2}{section*.2}%
+\contentsline {chapter}{Abstract}{5}{chapter*.4}%
+\contentsline {chapter}{Declaration of originality}{6}{section*.5}%
+\contentsline {chapter}{Copyright statement}{7}{section*.7}%
+\contentsline {chapter}{Acknowledgements}{8}{section*.9}%
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Theory}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Standard Model}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Quantum Mechanics and Classical Field Theory}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Quantum Electrodynamics (QED)}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Spontaneous Symmetry Breaking}{16}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Non-Abelian Gauge Symmetries}{17}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Electroweak Unification}{18}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}The Standard Model Lagrangian}{20}{subsection.2.1.6}%
+\contentsline {section}{\numberline {2.2}Physics of Hadron-Hadron Collisions}{22}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Scattering Amplitudes and Cross-sections}{22}{subsection.2.2.1}%
+\contentsline {subsubsection}{Cross-sections}{26}{equation.2.2.64}%
+\contentsline {subsection}{\numberline {2.2.2}Calculations of Cross-sections in $pp$ Collisions}{27}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Formation of Hadronic Final States}{28}{subsection.2.2.3}%
+\contentsline {subsubsection}{Parton Showers and Hadronisation}{29}{subsection.2.2.3}%
+\contentsline {subsubsection}{Jet Formation}{31}{equation.2.2.75}%
+\contentsline {subsubsection}{Monte-Carlo Event Generators}{32}{equation.2.2.2}%
+\contentsline {section}{\numberline {2.3}Vector Boson Scattering}{32}{section.2.3}%
+\contentsline {subsubsection}{Status of VBS Measurements at ATLAS}{34}{figure.caption.13}%
+\contentsline {chapter}{\numberline {3}The LHC and ATLAS Experiment}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{37}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detector Luminosity}{39}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Pile-up}{39}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}The ATLAS Experiment}{41}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Inner Detector}{41}{subsection.3.2.1}%
+\contentsline {subsubsection}{The Pixel Detector}{42}{subsection.3.2.1}%
+\contentsline {subsubsection}{The Semi-Conductor Tracker (SCT)}{43}{subsection.3.2.1}%
+\contentsline {subsubsection}{The Transition Radiation Tracker (TRT)}{43}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Calorimeters}{44}{subsection.3.2.2}%
+\contentsline {subsubsection}{The EM Calorimeters}{44}{subsection.3.2.2}%
+\contentsline {subsubsection}{The Hadronic Calorimeters}{45}{equation.3.2.8}%
+\contentsline {subsubsection}{Energy Resolution}{46}{equation.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.3}Muon Spectrometer}{46}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}ATLAS Trigger and Data-acquisition}{48}{subsection.3.2.4}%
+\contentsline {subsubsection}{Photon and Lepton Triggers}{50}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Data Processing }{51}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}ATLAS Object Reconstruction}{52}{subsection.3.2.6}%
+\contentsline {subsubsection}{Tracks and primary vertices}{52}{subsection.3.2.6}%
+\contentsline {subsubsection}{Electrons and Photons}{53}{figure.caption.22}%
+\contentsline {subsubsection}{Muons}{57}{equation.3.2.10}%
+\contentsline {subsubsection}{Jets}{58}{Item.11}%
+\contentsline {subsubsection}{Jet Flavour Tagging}{62}{figure.caption.26}%
+\contentsline {subsubsection}{Missing Tranverse Energy}{63}{figure.caption.26}%
+\contentsline {subsubsection}{Taus}{64}{equation.3.2.14}%
+\contentsline {chapter}{\numberline {4}Insitu Calibration of Large-R Jets Using Direct Balance in Z+Jet Events}{66}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{66}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Jet Calibration}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Data and MC samples}{70}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Jet definitions }{71}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Object Selections}{72}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Electrons}{72}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Muons}{72}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Jets}{73}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Overlap Removal}{73}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Event Selection}{73}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Nominal Response Calculation}{74}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Systematic Uncertainties}{76}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Results}{80}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Insitu combination}{80}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Small-R Insitu Calibration Cross-check}{81}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Samples, object definitions, and event selection}{81}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Results}{81}{subsection.4.11.2}%
+\contentsline {chapter}{\numberline {5}Differential Cross-section Measurement of $W\gamma jj$ EW Production at $\sqrt {s}=13\ensuremath {\hspace {2pt}\text {Te\kern -0.1em V}}\xspace $}{89}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Signal and Background Processes}{90}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Signal}{90}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Backgrounds}{91}{subsection.5.1.2}%
+\contentsline {subsubsection}{Strong $W\gamma $jj}{91}{subsection.5.1.2}%
+\contentsline {subsubsection}{Interference Between Strong and EW $W\gamma $jj}{91}{subsection.5.1.2}%
+\contentsline {subsubsection}{Prompt Backgrounds}{92}{equation.5.1.2}%
+\contentsline {subsubsection}{Non-prompt backgrounds}{93}{equation.5.1.2}%
+\contentsline {section}{\numberline {5.2}Interference Sample Generation and Validation Studies}{93}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Object and Event Selections}{95}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Derivations and Triggers}{95}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Object Selections}{96}{subsection.5.3.2}%
+\contentsline {subsubsection}{Photons}{96}{subsection.5.3.2}%
+\contentsline {subsubsection}{Electrons}{96}{subsection.5.3.2}%
+\contentsline {subsubsection}{Muons}{97}{subsection.5.3.2}%
+\contentsline {subsubsection}{Jets}{98}{subsection.5.3.2}%
+\contentsline {subsubsection}{Overlap Removal}{98}{subsection.5.3.2}%
+\contentsline {subsubsection}{Missing Tranverse Energy}{99}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Event Selections}{99}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Data-driven Background Estimates}{100}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Jets Faking Leptons}{100}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Jets Faking Photons}{101}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Electrons Faking Photons}{102}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Expected Yields and Events in Data}{103}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Signal Extraction Methodology}{103}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Choice of Model Parameters}{107}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7}Shape Dependence of \ensuremath {N^{\text {gap}}_{\text {jets}}}\xspace and \ensuremath {\xi _{l\gamma }}}{108}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Construction of the Asimov Dataset}{108}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Binning Determination}{110}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Detector Resolution with Bin Width}{110}{subsection.5.9.1}%
+\contentsline {section}{\numberline {5.10}Symmetrising of the \ensuremath {\Delta \phi _{\ell \gamma }^{\text {signed}}}\xspace and \ensuremath {\Delta \phi _{\text {jj}}^{\text {signed}}}\xspace Templates}{110}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Testing of the Binned Likelihood Fit}{112}{section.5.11}%
+\contentsline {section}{\numberline {5.12}Choice of Function for the Residual Correction}{115}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}\ensuremath {f(x_i)}\xspace =1}{116}{subsection.5.12.1}%
+\contentsline {subsection}{\numberline {5.12.2}$\ensuremath {f(x_i)}\xspace =mx_i+c$ or $\ensuremath {f(x_i)}\xspace =c$}{117}{subsection.5.12.2}%
+\contentsline {section}{\numberline {5.13}Uncertainties}{120}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Data Statistical Uncertainties}{120}{subsection.5.13.1}%
+\contentsline {subsection}{\numberline {5.13.2}MC Statistical Uncertainties}{120}{subsection.5.13.2}%
+\contentsline {subsection}{\numberline {5.13.3}Treatment of Systematic Uncertainties}{122}{subsection.5.13.3}%
+\contentsline {subsubsection}{Bootstrapping and statistical significance}{122}{subsection.5.13.3}%
+\contentsline {subsubsection}{Smoothing procedure}{123}{subsection.5.13.3}%
+\contentsline {subsubsection}{Symmetrising}{124}{subsection.5.13.3}%
+\contentsline {subsection}{\numberline {5.13.4}Experimental Systematic Uncertainties}{124}{subsection.5.13.4}%
+\contentsline {subsection}{\numberline {5.13.5}Non-prompt Background Uncertainties}{126}{subsection.5.13.5}%
+\contentsline {subsection}{\numberline {5.13.6}Theoretical Uncertainties}{127}{subsection.5.13.6}%
+\contentsline {subsubsection}{\ensuremath {\text {Strong-}W\gamma \text {jj }}Generator Choice}{128}{subsection.5.13.6}%
+\contentsline {subsubsection}{\ensuremath {\text {EW-}W\gamma \text {jj }}Generator Choice}{130}{figure.caption.76}%
+\contentsline {subsubsection}{Scale Uncertainties}{131}{figure.caption.77}%
+\contentsline {subsubsection}{\ensuremath {\alpha _\text {s}}\xspace uncertainties}{133}{figure.caption.78}%
+\contentsline {subsubsection}{PDF Uncertainties}{133}{figure.caption.79}%
+\contentsline {subsubsection}{Uncertainty Due to \ensuremath {\text {EW-}W\gamma \text {jj }}and \ensuremath {\text {strong-}W\gamma \text {jj }}Interference}{133}{figure.caption.80}%
+\contentsline {subsection}{\numberline {5.13.7}Summary of the Systematic Uncertainties}{134}{subsection.5.13.7}%
+\contentsline {section}{\numberline {5.14}Prefit and Postfit Distributions}{140}{section.5.14}%
+\contentsline {section}{\numberline {5.15}Cross-checks}{147}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Changes to the Likelihood Fit}{147}{subsection.5.15.1}%
+\contentsline {subsection}{\numberline {5.15.2}Signal Injection Test}{148}{subsection.5.15.2}%
+\contentsline {section}{\numberline {5.16}Correction for Detector Effects}{149}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}Unfolded Differential Cross-section Results}{151}{subsection.5.16.1}%
+\contentsline {subsection}{\numberline {5.16.2}Validation of the Unfolding Procedure}{152}{subsection.5.16.2}%
+\contentsline {chapter}{\numberline {6}Conclusions}{156}{chapter.6}%
+\contentsline {chapter}{References}{158}{chapter*.99}%
+\contentsline {chapter}{Appendices}{177}{section*.100}%
+\setcounter {tocdepth}{0}
+\contentsline {chapter}{\numberline {A}Large-R \ensuremath {Z\text {+jets}}\xspace Insitu Calibration}{178}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}\ensuremath {Z\text {+jets}}\xspace response fits }{178}{section.1.A.1}%
+\contentsline {chapter}{\numberline {B}Differential Cross-section Measurement}{182}{appendix.1.B}%
+\contentsline {section}{\numberline {B.1}Stability Plots }{182}{section.1.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}$\ensuremath {f(x_i)}\xspace =c$}{182}{subsection.1.B.1.1}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, MG5 QCD in Asimov, MG5 QCD template}{182}{subsection.1.B.1.1}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, Sherpa-2.2.11 QCD in Asimov, MG5 QCD template}{184}{figure.caption.111}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, MG5 QCD in Asimov, MG5 QCD template}{186}{figure.caption.115}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, Sherpa-2.2.11 QCD in Asimov, MG5 QCD template}{188}{figure.caption.119}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, MG5 QCD in Asimov, Sherpa-2.2.11 QCD template}{190}{figure.caption.123}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, Sherpa-2.2.11 QCD in Asimov, Sherpa-2.2.11 QCD template}{192}{figure.caption.127}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, MG5 QCD in Asimov, Sherpa-2.2.11 QCD template}{194}{figure.caption.131}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, Sherpa-2.2.11 QCD in Asimov, Sherpa-2.2.11 QCD template}{196}{figure.caption.135}%
+\contentsline {subsection}{\numberline {B.1.2}$\ensuremath {f(x_i)}\xspace =mx_i+c$}{198}{subsection.1.B.1.2}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, MG5 QCD in Asimov, MG5 QCD template}{198}{subsection.1.B.1.2}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, Sherpa-2.2.11 QCD in Asimov, MG5 QCD template}{200}{figure.caption.143}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, MG5 QCD in Asimov, MG5 QCD template}{202}{figure.caption.147}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, Sherpa-2.2.11 QCD in Asimov, MG5 QCD template}{204}{figure.caption.151}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, MG5 QCD in Asimov, Sherpa-2.2.11 QCD template}{206}{figure.caption.155}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace Asimov fluctuations, Sherpa-2.2.11 QCD in Asimov, Sherpa-2.2.11 QCD template}{208}{figure.caption.159}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, MG5 QCD in Asimov, Sherpa-2.2.11 QCD template}{210}{figure.caption.163}%
+\contentsline {subsubsection}{\ensuremath {m_{\text {jj}}}\xspace QCD template fluctuations, Sherpa-2.2.11 QCD in Asimov, Sherpa-2.2.11 QCD template}{212}{figure.caption.167}%
+\contentsline {section}{\numberline {B.2}Different Significance Thresholds}{214}{section.1.B.2}%
+\contentsline {subsection}{\numberline {B.2.1}$\sigma _{\text {thresh}}=1.0$}{215}{subsection.1.B.2.1}%
+\contentsline {subsection}{\numberline {B.2.2}$\sigma _{\text {thresh}}=1.6$}{216}{subsection.1.B.2.2}%

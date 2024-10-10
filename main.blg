@@ -1,0 +1,47 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[93] biber:340> INFO - === Thu Jun 27, 2024, 21:15:20
+[115] Biber.pm:418> INFO - Reading 'main.bcf'
+[272] Biber.pm:978> INFO - Found 173 citekeys in bib section 0
+[290] Biber.pm:4401> INFO - Processing section 0
+[302] Biber.pm:4592> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[312] bibtex.pm:1713> INFO - LaTeX decoding ...
+[566] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[2016] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2017] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2017] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2017] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[2130] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2382] bbl.pm:757> INFO - Output to main.bbl
+[2382] Biber.pm:130> WARN - Duplicate entry key: 'Insitu:JVT' in file 'bibliography.bib', skipping ...
+[2382] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'Intro:higgs1' is not an integer - this will probably not sort properly.
+[2382] Biber.pm:130> WARN - legacy month field 'Sep' in entry 'Intro:higgs2' is not an integer - this will probably not sort properly.
+[2382] Biber.pm:130> WARN - legacy month field 'Mar' in entry 'Atlas:PFlow' is not an integer - this will probably not sort properly.
+[2382] Biber.pm:130> WARN - legacy month field 'Feb' in entry 'Theory:parityviolation' is not an integer - this will probably not sort properly.
+[2382] Biber.pm:130> WARN - ISBN '978-0-7503-2444-1, 978-0-7503-2443-4, 978-0-7503-2442-7' in entry 'Buckley:PCP' is invalid - run biber with '--validate_datamodel' for details.
+[2382] Biber.pm:130> WARN - legacy month field 'apr' in entry 'Insitu:antikt' is not an integer - this will probably not sort properly.
+[2382] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Insitu:comix' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Insitu:powheg1' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Insitu:powheg2' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'nov' in entry 'Insitu:powheg3' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'feb' in entry 'Insitu:sherpa' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'jan' in entry 'Insitu:ckkw1' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'may' in entry 'Insitu:ckkw2' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'Jul' in entry 'VBSWy:VBS5' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'aug' in entry 'LHC:LHC' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Atlas:design' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'aug' in entry 'LHC:CMS' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'aug' in entry 'LHC:TOTEM' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'aug' in entry 'LHC:LHCb' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'aug' in entry 'LHC:ALICE' is not an integer - this will probably not sort properly.
+[2383] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Atlas:egam_reco' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'Oct' in entry 'Insitu:ct10' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'Mar' in entry 'Insitu:openloops' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Insitu:cs' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'feb' in entry 'Insitu:sk' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'may' in entry 'Insitu:softdrop' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'oct' in entry 'Insitu:smallrcali' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'mar' in entry 'Insitu:fastjet1' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - legacy month field 'Feb' in entry 'VBSWy:abcd' is not an integer - this will probably not sort properly.
+[2384] Biber.pm:130> WARN - ISBN '978-3-527-41058-3, 978-3-527-65344-7, 978-3-527-65343-0' in entry 'VBSWy:Behnke' is invalid - run biber with '--validate_datamodel' for details.
+[2384] Biber.pm:132> INFO - WARNINGS: 31
