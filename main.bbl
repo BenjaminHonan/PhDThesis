@@ -5517,6 +5517,108 @@
       \verb https://cds.cern.ch/record/2261772
       \endverb
     \endentry
+    \entry{Insitu:trimming}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e3ba0109afe76df6438d338d0fd4c248}{%
+           family={Krohn},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=90f102f9e580c8d97064f719874e0764}{%
+           family={Thaler},
+           familyi={T\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=02f32d1857ef6f3cdbef31215796c9c0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lian-Tao},
+           giveni={L\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{45bd831b5b212326bedf74091fc30c22}
+      \strng{fullhash}{3924e9b0d9de365666341ed19ac09987}
+      \strng{bibnamehash}{3924e9b0d9de365666341ed19ac09987}
+      \strng{authorbibnamehash}{3924e9b0d9de365666341ed19ac09987}
+      \strng{authornamehash}{45bd831b5b212326bedf74091fc30c22}
+      \strng{authorfullhash}{3924e9b0d9de365666341ed19ac09987}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Jet trimming}
+      \field{volume}{2010}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1007/jhep02(2010)084
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP02(2010)084
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP02(2010)084
+      \endverb
+    \endentry
+    \entry{Insitu:softdrop}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e712b5240ceac15d27335f9d2af843cc}{%
+           family={Larkoski},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=40971323c7d12a18286ec52cf5735ad2}{%
+           family={Marzani},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4f0b7ca3806264505163f88e90956033}{%
+           family={Soyez},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=90f102f9e580c8d97064f719874e0764}{%
+           family={Thaler},
+           familyi={T\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{8300a7b25d3707743744c27863284bc1}
+      \strng{fullhash}{22e709905b4c34475576d7e11e794d45}
+      \strng{bibnamehash}{22e709905b4c34475576d7e11e794d45}
+      \strng{authorbibnamehash}{22e709905b4c34475576d7e11e794d45}
+      \strng{authornamehash}{8300a7b25d3707743744c27863284bc1}
+      \strng{authorfullhash}{22e709905b4c34475576d7e11e794d45}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Soft drop}
+      \field{volume}{2014}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1007/jhep05(2014)146
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007%2Fjhep05%282014%29146
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007%2Fjhep05%282014%29146
+      \endverb
+    \endentry
     \entry{Atlas:smallrufo}{report}{}
       \list{institution}{1}{%
         {CERN}%
@@ -6172,59 +6274,6 @@
       \verb https://doi.org/10.1140%2Fepjc%2Fs10052-015-3267-2
       \endverb
     \endentry
-    \entry{Insitu:softdrop}{article}{}
-      \name{author}{4}{}{%
-        {{hash=e712b5240ceac15d27335f9d2af843cc}{%
-           family={Larkoski},
-           familyi={L\bibinitperiod},
-           given={Andrew\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=40971323c7d12a18286ec52cf5735ad2}{%
-           family={Marzani},
-           familyi={M\bibinitperiod},
-           given={Simone},
-           giveni={S\bibinitperiod}}}%
-        {{hash=4f0b7ca3806264505163f88e90956033}{%
-           family={Soyez},
-           familyi={S\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod}}}%
-        {{hash=90f102f9e580c8d97064f719874e0764}{%
-           family={Thaler},
-           familyi={T\bibinitperiod},
-           given={Jesse},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media {LLC}}%
-      }
-      \strng{namehash}{8300a7b25d3707743744c27863284bc1}
-      \strng{fullhash}{22e709905b4c34475576d7e11e794d45}
-      \strng{bibnamehash}{22e709905b4c34475576d7e11e794d45}
-      \strng{authorbibnamehash}{22e709905b4c34475576d7e11e794d45}
-      \strng{authornamehash}{8300a7b25d3707743744c27863284bc1}
-      \strng{authorfullhash}{22e709905b4c34475576d7e11e794d45}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of High Energy Physics}
-      \field{month}{5}
-      \field{number}{5}
-      \field{title}{Soft drop}
-      \field{volume}{2014}
-      \field{year}{2014}
-      \verb{doi}
-      \verb 10.1007/jhep05(2014)146
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007%2Fjhep05%282014%29146
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007%2Fjhep05%282014%29146
-      \endverb
-    \endentry
     \entry{Insitu:smallrcali}{article}{}
       \list{publisher}{1}{%
         {American Physical Society ({APS})}%
@@ -6601,8 +6650,8 @@
       \strng{authorbibnamehash}{41c1316ac071f41f8ac57add0843bd18}
       \strng{authornamehash}{41c1316ac071f41f8ac57add0843bd18}
       \strng{authorfullhash}{41c1316ac071f41f8ac57add0843bd18}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Overview of Large R in-situ JES}}
@@ -6629,8 +6678,8 @@
       \strng{authorbibnamehash}{f9420b499d50fb52fe624e21ec08321a}
       \strng{authornamehash}{f9420b499d50fb52fe624e21ec08321a}
       \strng{authorfullhash}{f9420b499d50fb52fe624e21ec08321a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Determining the Jet Energy Scale for ATLAS in the Z+Jet Channel}}

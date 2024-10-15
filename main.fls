@@ -1,6 +1,6 @@
-PWD /home/ben/Thesis/phd-thesis
+PWD /home/ben/Thesis/githubrepo/PhDThesis
 INPUT /usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT /home/ben/Thesis/phd-thesis/main.tex
+INPUT /home/ben/Thesis/githubrepo/PhDThesis/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ltluatex.lua
